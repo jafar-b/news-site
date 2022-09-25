@@ -1,0 +1,1 @@
+This is a News Website made by jafar..It is made using Nextjs and Tailwind css.

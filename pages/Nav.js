@@ -14,18 +14,20 @@ function Nav() {
   return (
     <nav class=" bg-white border-gray-200 px-2 lg:px-6  dark:bg-gray-900 w-full ">
       <div class=" p-3 flex flex-wrap justify-between items-center mx-auto  ">
-        <a href="/" class="flex items-center">
-          <Image
+        <Link href="/" >
+          <div class="flex items-center mx-2">
+            <Image
             src="/Navimg.svg"
             class="mr-3 h-6 sm:h-9"
             alt="news logo"
             width={60}
             height={60}
-          />
-          <span class=" self-center text-xl font-semibold whitespace-nowrap dark:text-white block py-2 pr-4 pl-3 text-white hover:bg-slate-600 hover:py-2 hover:ease-in rounded md:bg-transparent">
+            />
+          <span class=" self-center text-xl font-semibold whitespace-nowrap dark:text-white block py-2 pr-4 pl-3 text-white hover:bg-slate-600  hover:ease-in rounded md:bg-transparent mx-2">
             Prime News
           </span>
-        </a>
+            </div>
+        </Link>
 
         <button 
         onClick={()=>setOpen(!open)}

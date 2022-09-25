@@ -7,7 +7,7 @@ import axios from "axios";
 const NewsContainer = ({ category }) => {
 const [articles, setArticles] = useState([]);
 
-// const response = await axios.get(`https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=575ffdb7343c4d6ab577ec92bbade066`)abc-news-au
+
 useEffect(() => {
 console.log(process.env)
       const getArticles = async () => {
